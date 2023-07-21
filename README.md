@@ -1,6 +1,6 @@
 # Мобильное приложение
 ---
-![giffk](https://github.com/TatianaChes/K_Project/blob/master/picture/three.gif)
+![giffk](https://github.com/TatianaChes/K_Project/blob/main/picture/three.gif)
 
 # Обзор
 ---
@@ -19,4 +19,4 @@ __Функции:__
 
 |Считывание |Генерирование |
 | -----|------|
-|![giffk](https://github.com/TatianaChes/K_Project/blob/master/picture/two.gif)|![giffk](https://github.com/TatianaChes/K_Project/blob/master/picture/one.gif)|
+|![giffk](https://github.com/TatianaChes/K_Project/blob/main/picture/two.gif)|![giffk](https://github.com/TatianaChes/K_Project/blob/main/picture/one.gif)|
