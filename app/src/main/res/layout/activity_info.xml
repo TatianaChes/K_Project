@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+                <!-- Content here -->
+                <TextView
+                    android:id="@+id/Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <TextView
+
+                    android:id="@+id/IDtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/gost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ГОСТ" />
+
+            <EditText
+                android:id="@+id/editGost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Вес, кг" />
+
+            <EditText
+                android:id="@+id/editWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/length"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Длина, м" />
+
+            <EditText
+                android:id="@+id/editLength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/diametr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Диаметр, мм" />
+
+            <EditText
+                android:id="@+id/editDiametr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/material"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Материал" />
+
+            <EditText
+                android:id="@+id/editMaterial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/provider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Поставщик" />
+
+            <EditText
+                android:id="@+id/editProvider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Заказ" />
+
+            <EditText
+                android:id="@+id/editOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/hardness"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Твердость, НВ" />
+
+            <EditText
+                android:id="@+id/editHardness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/coverage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Материал покрытия" />
+
+            <EditText
+                android:id="@+id/editCoverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/lengthCoverage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Толщина покрытия, мкм" />
+
+            <EditText
+                android:id="@+id/editLengthCoverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/change"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/gradient2"
+                android:text="Изменить"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

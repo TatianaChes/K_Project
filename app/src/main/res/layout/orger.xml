@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/id"
+        android:text="Заказ"/>
+    <EditText
+           android:id="@+id/inputId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/id2"
+        android:text="Наименование"/>
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginTop="15dp">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnTimerCancel"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient2"
+        android:text="Отмена"/>
+        <Button
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:id="@+id/btnTimerOk"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient"
+        android:text="Сохранить"
+        android:layout_marginLeft="35dp"/>
+    </LinearLayout>
+</LinearLayout>

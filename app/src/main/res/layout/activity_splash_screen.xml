@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/kr"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/del"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a" />
+
+    <ImageView
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/del"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/eta"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/del"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/del"
+        app:srcCompat="@drawable/eta" />
+</androidx.constraintlayout.widget.ConstraintLayout>
